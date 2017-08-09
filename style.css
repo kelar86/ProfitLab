@@ -1,0 +1,94 @@
+.menu li{
+    display: inline;
+    margin-right: 5px;
+    list-style-type: none;
+}
+div{
+    box-sizing: border-box;
+}
+
+menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+header{
+    background: url("./img/severn_project_b_6d13aef6489b20bae2b5325f37a817df.jpg") no-repeat center top / cover;
+    height: 755px;
+}
+
+
+.container-fluid{
+   /*width: 1060px;*/
+    margin: 0 auto;
+}
+
+#title{
+    font-size: 36px;
+    margin-top: 275px;
+    background: #f7941e;
+    opacity: 0.8;
+    height: 97px;
+}
+
+
+#details{
+    margin-top: 20px;
+    background: #ffffff;
+    opacity: 0.8;
+    height: 37px;
+
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+h1{
+   color: white;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.nav {
+    margin-top: 50px;
+}
+
+.nav a{
+    font-size: 14px;
+    color: white;
+}
+#statistics{
+    height: 277px;
+    text-align: center;
+}
+#statistics p{
+    margin-top: 99px;
+    font-size: 64px;
+    color: #0d0d0d;
+}
+#form{
+    height: 250px;
+    background: #414141;
+    color: white;
+}
+
+#title-form{
+    margin-top: 70px;
+}
+#form .form-control{
+    background: #ffffff;
+    opacity: 0.8;
+    height: 57px;
+    border-radius: 0;
+}
+#send .form-control {
+    height: 57px;
+    width: 100%;
+    background: #f7941e;
+    border: none;
+}
