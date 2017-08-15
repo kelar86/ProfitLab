@@ -9,7 +9,7 @@ function submit(){
     $phone = $_POST['client-tel'];
     $title = uniqid($name);
 
-    $host = "www.bitrikx24.ru";
+    $host = "www.bitrix24.ru";
     $port = 80;
 
     $param = $host . CRM_PATH. "?LOGIN=" . CRM_LOGIN
